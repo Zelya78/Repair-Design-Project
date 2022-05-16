@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:16px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+body {
+   max-width: 1440px;
+   height: 790px;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 11px;
+   line-height: 15px;
+   margin: 0 auto;
+}
+
+/*---------- header ----------*/
+
+.header {
+   height: 83px;
+   width: 1438px;
+   background-color: #131313;
+}
+
+.header__container {
+   height: 83px;
+   width: 1438px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header__logo-name {
+   text-transform: uppercase;
+   width: 179px;
+   height: 11px;
+   margin: 37px 0px 36px 92px;
+}
+
+.header__list {
+   margin: 37px 0px 36px 0px;
+}
+
+.header__link, .header__item {
+   display: inline-block;
+   margin-right: 47px;
+}
+
+.header__link:last-child {
+   margin-right: 0px;
+}
+
+.header__tel {
+   display: inline-block;
+   padding-right: 45px;
+   text-decoration: underline;
+}
+
+.header__btn {
+   display: inline-block;
+   background-color: #E3B873;
+   font-size: 11px; 
+   font-style: italic;
+   border-radius: 2px;
+   padding: 13px 33px;
+   text-transform: uppercase;
+   margin-right: 90px;
+   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+}
+
+/* --------------------------- */
+
+.header__logo-name, .header__item, .header__tel {
+   color: #E3B873;
+}
+
+.header__link a, .intro__btn a, .intro__btn-form a, .header__btn {
+   color: #fff;
+   font-size: 11px;
+}
+
+/*---------- section intro----------*/
+
+.intro {
+   position: relative;
+}
+
+.img {
+   filter: brightness(0.3);
+}
+
+.intro__title {
+   position: absolute;
+   top: 0px;
+   z-index: 2;
+   color: #fff;
+   text-transform: uppercase;
+   font-family: Yeseva One;
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 53px;
+   width: 676px;
+   height: 105px;
+   margin: 194px 628px 408px 134px;
+}
+
+.intro__title span {
+   color: #E3B873;
+}
+
+.intro__text {
+   position: absolute;
+   top: 0px;
+   z-index: 2;
+   color: #fff;
+   margin: 318px 800px 300px 134px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 36px;
+}
+
+.intro__btn {
+   width: 207px;
+   height: 51px;
+   border-radius: 2px;
+   position: absolute;
+   top: 0px;
+   z-index: 2;
+   margin: 448px 1097px 208px 134px;
+   background-color: #E3B873;
+   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+}
+
+.intro__btn a {
+   width: 124px;
+   height: 11px;
+   font-style: italic;
+   font-weight: 400;
+} 
+
+.intro__btn-form {
+   width: 207px;
+   height: 51px;
+   border: 1px solid #fff;
+   border-radius: 2px;
+   background: rgba(0, 0, 0, 0.1);
+   position: absolute;
+   top: 0px;
+   z-index: 2;
+   margin: 448px 870px 208px 361px;
+}
+
+.intro__btn-form a {
+   width: 162px;
+   font-family: Nunito Sans;
+   font-style: italic;
+   font-weight: 400;
+}
+
+/* ----------section intro2---------- */
+
+.intro2 {
+   width: 1440px;
+   height: 1074px;
+   background-color: #131313;
+}
+
+.intro2__container {
+
+}
+
+.intro2__nav {
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 107px;
+}
+
+.goldlink  {
+   color: #E3B873;
+}
+
+.intro2__nav a {
+   font-family: Yeseva One;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.3);
+   margin-right: 60px;
+}
+
+
+
+.intro2__main {
+   display: flex;
+   justify-content: space-around;
+}
+
+.img2 {
+   
+   
+}   
+
+.intro2__block {
+
+}
+
+.intro2__title {
+   color: #E3B873;
+}
+
+.intro2__text {
+   color: #fff;
+   width: 442px;
+   height: 86px;
+}
+
+.intro2__items {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.intro2__subitems {
+   width: 200px;
+   height: 100px;
+}
+
+.intro2__subtitle {
+   color: #E3B873;
+}
+
+span {
+   color: #fff;
+}
