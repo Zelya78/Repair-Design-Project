@@ -17,11 +17,11 @@ img{vertical-align: top;}
 
 body {
    max-width: 1440px;
-   height: 790px;
+   margin: 0 auto;
    font-family: 'Nunito Sans', sans-serif;
    font-size: 11px;
-   line-height: 15px;
-   margin: 0 auto;
+   font-weight: 400;
+   background-color: #E5E5E5;
 }
 
 /*---------- header ----------*/
@@ -95,19 +95,17 @@ body {
    position: relative;
 }
 
-.img {
+.intro__img {
    filter: brightness(0.3);
 }
 
 .intro__title {
    position: absolute;
    top: 0px;
-   z-index: 2;
    color: #fff;
    text-transform: uppercase;
-   font-family: Yeseva One;
+   font-family: 'Yeseva One';
    font-size: 40px;
-   font-weight: 400;
    line-height: 53px;
    width: 676px;
    height: 105px;
@@ -121,11 +119,9 @@ body {
 .intro__text {
    position: absolute;
    top: 0px;
-   z-index: 2;
    color: #fff;
    margin: 318px 800px 300px 134px;
    font-style: normal;
-   font-weight: 400;
    font-size: 22px;
    line-height: 36px;
 }
@@ -136,7 +132,6 @@ body {
    border-radius: 2px;
    position: absolute;
    top: 0px;
-   z-index: 2;
    margin: 448px 1097px 208px 134px;
    background-color: #E3B873;
    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
@@ -146,7 +141,6 @@ body {
    width: 124px;
    height: 11px;
    font-style: italic;
-   font-weight: 400;
 } 
 
 .intro__btn-form {
@@ -157,7 +151,6 @@ body {
    background: rgba(0, 0, 0, 0.1);
    position: absolute;
    top: 0px;
-   z-index: 2;
    margin: 448px 870px 208px 361px;
 }
 
@@ -165,81 +158,638 @@ body {
    width: 162px;
    font-family: Nunito Sans;
    font-style: italic;
-   font-weight: 400;
 }
 
 /* ----------section intro2---------- */
 
 .intro2 {
-   width: 1440px;
-   height: 1074px;
+   max-width: 1440px;
    background-color: #131313;
 }
 
 .intro2__container {
+   max-width: 1440px;
+   height: 1074px;
+}
 
+.intro2__subcontainer {
+   width: 1440px;
+   height: 176px;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .intro2__nav {
    display: flex;
-   justify-content: flex-end;
-   padding-top: 107px;
-}
-
-.goldlink  {
-   color: #E3B873;
+   padding: 107px 190px 52px 0px;
 }
 
 .intro2__nav a {
+   width: 623px;
    font-family: Yeseva One;
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
    text-transform: uppercase;
    color: rgba(255, 255, 255, 0.3);
-   margin-right: 60px;
 }
 
+a.goldlink {
+   margin-right: 53px;
+   color: #E3B873;
+   text-decoration: underline;
+}
 
+.lastlink {
+   margin-left: 58.5px;
+}
 
 .intro2__main {
    display: flex;
    justify-content: space-around;
+   padding-left: 134px;
 }
 
-.img2 {
-   
-   
-}   
-
 .intro2__block {
-
+   margin-right: 48px;
 }
 
 .intro2__title {
+   width: 253px;
+   height: 66px;
+   font-family: 'Yeseva One';
+   font-size: 27px;
+   line-height: 37px;
    color: #E3B873;
+   text-transform: uppercase;
 }
 
 .intro2__text {
-   color: #fff;
+   margin-top: 34px;
    width: 442px;
-   height: 86px;
+   color: #fff;
+   font-size: 14px;
+   line-height: 27px;
 }
 
 .intro2__items {
-   display: flex;
-   flex-wrap: wrap;
+   margin-top: 42px;
+   display: grid;
+   grid-template-columns: repeat(2, 220px);
+   grid-template-rows: repeat(2, 70px);
+   grid-gap: 34px 29px;
 }
 
 .intro2__subitems {
-   width: 200px;
-   height: 100px;
+   width: 161px;
+   height: 64px;
+   margin-right: 29px;
+}
+
+.intro2__subtitle, .intro2__subtitle2, .intro2__subtitle3, .intro2__subtitle4 {
+   font-family: 'Yeseva One';
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   color: #E3B873;
+   height: 22px;
+   margin-bottom: 9px;
 }
 
 .intro2__subtitle {
-   color: #E3B873;
+   width: 66px;
 }
 
-span {
+.intro2__subtitle2 {
+   width: 213px;
+}
+
+.intro2__subtitle3 {
+   width: 156px;
+}
+
+.intro2__subtitle4 {
+   width: 218px;
+}
+
+.intro2__subtitle-subitem,
+.intro2__subtitle2-subitem, .intro2__subtitle3-subitem, .intro2__subtitle4-subitem {
+   font-size: 13px;
+   line-height: 21px;
    color: #fff;
+}
+
+.intro2__subtitle-subitem {
+   width: 161px;
+   height: 42px;
+}
+
+.intro2__subtitle2-subitem {
+   width: 51px;
+   height: 21px;
+}
+
+.intro2__subtitle3-subitem {
+   width: 103px;
+   height: 24px;
+}
+
+.intro2__subtitle4-subitem {
+   width: 115px;
+   height: 24px;
+}
+
+.img2 {
+   padding-right: 135px;
+}
+
+.arrows {
+   margin-top: 40px;
+   margin-bottom: 93px;
+} 
+
+/*---------- section intro3 ----------*/
+
+.intro3 {
+   max-width: 1440px;
+   height: 1072px;
+   position: relative;
+   left: 0;
+   bottom: 20px;
+   background-color: #fff;
+}
+
+.intro3__container {
+   max-width: 1440px;
+   position: relative;
+   bottom: 520px;
+   left: 0;
+}
+
+.intro3__title {
+   display: inline-block; 
+   margin-top: -70px;
+   margin-left: 635px;
+   width: 196px;
+   height: 26px;
+   font-family: 'Yeseva One';
+   font-size: 20px;
+   line-height: 28;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.intro3__online-control {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 135px;
+   margin-bottom: 20px;
+   padding-top: 100px;
+   
+}
+
+.intro3__strokeleft, .intro3__strokeright {
+   margin-top: 10px;
+}
+
+.intro3__camera {
+   margin: 10px;
+}
+
+.video {
+   margin-top: 0px;
+   margin-left: 311px;
+   width: 817px;
+   height: 434px;
+   filter: brightness(0.3); 
+   position: relative;
+}
+
+.playvideo {
+   position: absolute;
+   top: 38%;
+   left: 45%; 
+}
+
+.arrowvideoplay {
+   position: absolute;
+   top: 42.7%;
+   left: 49.5%; 
+}
+
+hr {
+   width: 55px;
+   height: 2px;
+   margin: 62px auto;
+   background-color: #E3B873;
+   margin-bottom: 35px;
+   border-radius: 30px;
+}
+
+.intro3__text {
+   width: 680px;
+   height: 130px;
+   margin: 0 auto;
+   color: #363636;
+   font-size: 18px;
+   line-height: 37px;
+   text-align: center;
+   margin-bottom: 93px;
+}
+
+.intro3__container-form {
+   display: flex;
+   justify-content: center;
+}
+
+.intro3__subcontainer, .intro3__subcontainer2 {
+   margin-right: 70px;
+   width: 233px;
+   height: 45px;
+   background-color: #fff;
+   border-bottom: 1px solid #3636364D;
+}
+
+.intro3__name-form, .intro3__phone-form{
+   color: #3636364D;
+   font-size: 13px;
+   line-height: 21px;
+}
+
+.intro3__inputname-form {
+   color: #363636;
+   font-size: 14px;
+   line-height: 23px;
+}
+
+.intro3__btn-form {
+   width: 200px;
+   height: 50px;
+   background-color: #E3B873;
+   text-align: center;
+   padding-top: 20px;
+   border-radius: 2px;
+   cursor: pointer;
+}
+
+.intro3__btn-link {
+   width: 50px;
+   height: 15px;
+   background-color: #E3B873;
+   text-transform: uppercase;
+   color: #fff;
+}
+/* --------------------------------- */
+.checkbox-form {
+   margin-top: 39px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.custom-checkbox {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.hidden-checkbox {
+   -webkit-appearance: none;
+   position: absolute;
+}
+
+.custom-checkbox .checkbox {
+   background-color: #E3B873;
+   width: 18px;
+   height: 18px;
+   position: relative;
+   border-radius: 1px;
+}
+
+.custom-checkbox .checkmark {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 70%;
+   height: auto;
+   display: none;
+}
+
+.custom-checkbox input:checked + .checkbox .checkmark {
+   display: block;
+}
+
+.textofcheckbox {
+   align-items: center;
+   padding-left: 8px;
+   font-size: 14px;
+   line-height: 23px;
+   color: #181818;
+}
+
+/* ----- intro4 ----- */
+
+.intro4 {
+   max-width: 1440px;
+   min-height: 785px;
+   background-color: #fff;
+   position: relative;
+   bottom: 370px;
+   left: 0;
+   right: 0;
+}
+
+.intro4__container {
+   max-width: 1440px;
+}
+
+.intro4__title {
+   text-align: center;
+   font-family: 'Yeseva One';
+   font-size: 20px;
+   line-height: 28px;
+   color: #181818;
+}
+
+.intro4__typesofrepair {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.intro4__strokeleft, .intro4__strokeright {
+   margin-top: 10px;
+}
+
+.intro4__tools {
+   margin: 13px 10px;
+}
+
+.intro4__subcontainer {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 420px;
+   grid-column-gap: 30px;
+}
+
+/*----- redecorating -----*/
+
+.intro4__img-redecorating {
+   margin-left: 100px;
+   position: relative;
+}
+
+.intro4__block-redecorating {
+   width: 330px;
+   height: 286px;
+   position: absolute;
+   top: 407px;
+   left: 130px;
+   background-color: #fff;
+}
+
+.intro4__subtitle-redecor, .intro4__subtitle-overhaul, .intro4__subtitle-designerrepair {
+   font-family: 'Yeseva One';
+   font-size: 18px;
+   line-height: 25px;
+   color: #363636;
+   width: 228px;
+   padding-top: 25px;
+   padding-left: 34px;
+}
+
+.intro4__typesofdecorating, .intro4__typesofoverhaul, .intro4__typesofdesignerrepair {
+   width: 267px;
+   height: 178px;
+   padding-top: 13px;
+   padding-left: 34px;
+}
+
+.intro4__typesofdecorating li, .intro4__typesofoverhaul li, .intro4__typesofdesignerrepair li {
+   font-size: 13px;
+   line-height: 26px;
+   color: #959595;
+}
+/* ------------------------- */
+.intro4__btnofcost, .intro4__btnofcost2, .intro4__btnofcost3 {
+   width: 228px;
+   height: 54px;
+   background-color: #E3B873;
+}
+
+.intro4__btnofcost {
+   position: absolute;
+   top: 267px;
+   left: 0px;
+}
+
+.intro4__btnofcost a,  .intro4__btnofcost2 a,  .intro4__btnofcost3 a {
+   font-family: 'Yeseva One';
+   font-size: 18px;
+   line-height: 25px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+/*----- end redecorating -----*/
+
+/* -----overhaul----- */
+
+.intro4__img-overhaul {
+   position: relative;
+}
+
+.intro4__block-overhaul {
+   width: 330px;
+   height: 286px;
+   position: absolute;
+   top: 407px;
+   left: 554px;
+   background-color: #fff;
+}
+
+.intro4__btnofcost2 {
+   position: absolute;
+   top: 267px;
+   left: 0px;
+}
+
+/* -------------------------- */
+
+.intro4__typesofoverhaul li {
+   font-size: 13px;
+   line-height: 26px;
+   color: #959595;
+}
+
+/*----- end overhaul -----*/
+
+/* -----designerrepair----- */
+
+.intro4__img-designerrepair {
+   margin-right: 100px;
+   position: relative;
+}
+
+.intro4__block-designerrepair {
+   width: 330px;
+   height: 286px;
+   position: absolute;
+   top: 407px;
+   left: 979px;
+   background-color: #fff;
+}
+
+.intro4__btnofcost3 {
+   position: absolute;
+   top: 267px;
+   left: 0px;
+   margin-bottom: 53px;
+}
+
+.intro4__typesofdesignerrepair li {
+   font-size: 13px;
+   line-height: 26px;
+   color: #959595;
+}
+
+/* -----intro4__measurement----- */
+
+.intro4__measurement {
+   
+   
+}
+
+.building {
+   
+}
+
+.intro4__services {
+   
+}
+
+.circle {
+
+}
+
+.one {
+
+}
+
+.text01 {
+
+}
+
+.circle2 {
+
+}
+
+.two {
+
+}
+
+.text02 {
+
+}
+
+.circle3 {
+
+}
+
+.three {
+
+}
+
+.text03 {
+
+}
+
+.circle4 {
+
+}
+
+.four {
+
+}
+
+.text04 {
+
+}
+
+.intro4__measurement-form {
+   
+   width: 506px;
+   height: 509px;
+   border: 1px solid #000;
+}
+
+.intro4__container-form {
+
+}
+
+.request-form {
+
+}
+
+.intro4__subcontainer {
+
+}
+
+.intro4__name-form {
+
+}
+
+.intro4__inputname-form {
+
+}
+
+.intro4__subcontainer2 {
+
+}
+
+.intro4__phone-form {
+
+}
+
+.intro4__inputphone-form {
+
+}
+
+.intro4__subcontainer3 {
+
+}
+
+.intro4__btn-form {
+
+}
+
+.intro4__btn-link {
+
+}
+
+.checkbox-form {
+
+}
+
+.custom-checkbox {
+
+}
+
+.hidden-checkbox {
+
+}
+
+.checkbox {
+
+}
+
+.checkmark {
+
+}
+
+.textofcheckbox {
+
 }

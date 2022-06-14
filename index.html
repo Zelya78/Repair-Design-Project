@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+p<!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
@@ -33,9 +33,9 @@
    </div>
    <!--верстаем содержимое section-->
    <section class="intro">
-      <div>
-         <img class="img" src="./images/image4.3.jpg" alt="room">
-      </div>  
+      <div class="intro__img">
+         <img src="./images/image1.jpg" alt="room">
+      </div>
       <div class="intro__container">
          <h1 class="intro__title">
             Turnkey Repair in the<br> 
@@ -52,56 +52,242 @@
    </section>
    <section class="intro2">
       <div class="intro2__container">
-         <ul class="intro2__nav">
-            <li><a class="goldlink" href="#">Rostov-on-Don, Admiral</a></li>
-            <li><a href="#">Sochi Thieves</a></li>
-            <li><a href="#">Rostov-on-Don Patriotic</a></li>
-         </ul>
+         <div class="intro2__subcontainer">
+            <ul class="intro2__nav">
+               <li><a class="goldlink" href="#">Rostov-on-Don, Admiral</a></li>
+               <li><a href="#">Sochi Thieves</a></li>
+               <li><a class="lastlink" href="#">Rostov-on-Don Patriotic</a></li>
+            </ul>
+         </div>
          <div class="intro2__main">
             <div class="intro2__block">
                <h2 class="intro2__title">Completed projects</h2>
                <p class="intro2__text">
-                  Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
+                  Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families
                </p>
                <div class="intro2__items">
                   <div class="intro2__subitems">
                      <h3 class="intro2__subtitle">City:</h3>
-                     <span>Rostov-on-Don<br>
+                     <span class="intro2__subtitle-subitem">Rostov-on-Don<br>
                         LCD admiral</span>
                   </div>
                   <div>   
-                     <h3 class="intro2__subtitle">Apartment area:</h3>
-                     <span>81 m2</span>
+                     <h3 class="intro2__subtitle2">Apartment area:</h3>
+                     <span class="intro2__subtitle2-subitem">81 m2</span>
                   </div>
                   <div>   
-                     <h3 class="intro2__subtitle">Repair time:</h3>
-                     <span>3.5 months</span>
+                     <h3 class="intro2__subtitle3">Repair time:</h3>
+                     <span class="intro2__subtitle3-subitem">3.5 months</span>
                   </div>
                   <div>   
-                     <h3 class="intro2__subtitle">Repair Cost:</h3>
-                     <span>Upon request</span>
+                     <h3 class="intro2__subtitle4">Repair Cost:</h3>
+                     <span class="intro2__subtitle4-subitem">Upon request</span>
                   </div>
                   <div class="arrows">
                      <div>
-                        <img src="./images/Vector(Stroke).svg" alt="arrow">
-                     </div>
-                     <div>
-                        <img src="./images/RectangleWhite7.4.svg" alt="point">
-                     </div>
-                     <div>
-                        <img src="./images/RectangleGrey7.3.svg" alt="point">
-                     </div>
-                     <div>
-                        <img src="./images/RectangleGrey7.2.svg" alt="point">
-                     </div>
-                     <div>
-                        <img src="./images/VectorRight(Stroke).svg" alt="arrow">
+                     <img src="./images/Grouparrows.svg" alt="arrows">
                      </div>
                   </div>
                </div>
             </div>
             <div class="img2">
-               <img src="./images/image2.1.png" alt="apartment">
+               <img src="./images/image2.png" alt="apartment">
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="intro3">
+      <div class="intro3__container">
+         <h3 class="intro3__title">online control</h3>
+         <div class="intro3__online-control">
+            <div class="intro3__strokeright">
+               <img src="./images/strokeofcamera.svg" alt="stroke">
+            </div>
+            <div class="intro3__camera">
+               <img src="./images/camera.svg" alt="camera">
+            </div>
+            <div class="intro3__strokeleft">
+               <img src="./images/strokeofcamera.svg" alt="stroke">
+            </div>
+         </div>
+         <img class="video" src="./images/demovideo.png" alt="demo">
+         <img class="playvideo" src="./images/Ellipse.svg" alt="play">
+         <img class="arrowvideoplay" src="./images/Arrowvideoplay.svg" alt="arrowplay">
+         <hr class="intro3__hr">
+         <p class="intro3__text">
+            At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!<br>
+            Leave a request below and you will receive a link to the broadcast.
+         </p>
+         <form class="intro3__container-form" action="#">
+            <div class="intro3__subcontainer">
+               <div class="intro3__name-form">
+                  <label for="name">Name</label>
+               </div>
+               <div class="intro3__inputname-form">
+                  <input type="text" placeholder="What is your name:"></input>
+               </div>
+            </div>
+            <div class="intro3__subcontainer2">
+               <div class="intro3__phone-form">
+                  <label for="name">Phone</label>
+               </div>
+               <div class="intro3__inputphone-form">
+                  <input type="text" placeholder="Your phone number:"></input>
+               </div>
+            </div>
+            <div class="intro3__btn-form">
+               <button><a class="intro3__btn-link" href="#">submit</a></button>
+            </div>
+         </form>   
+            <div class="checkbox-form">
+               <label class="custom-checkbox">
+                  <input type="checkbox" class="hidden-checkbox">
+                  <div class="checkbox">
+                     <img class="checkmark" src="./images/checkmark.svg" alt="checkmark">
+                  </div>
+                  <span class="textofcheckbox">I agree to the processing of personal data</span>
+               </label>
+            </div>
+      </div>
+   </section>
+   <section class="intro4">
+      <div class="intro4__container">
+         <h3 class="intro4__title">TYPES OF REPAIR</h3>
+         <div class="intro4__typesofrepair">
+            <div class="intro4__strokeleft">
+               <img src="./images/strokeofcamera.svg" alt="stroke">
+            </div>
+            <div class="intro4__tools">
+               <img src="./images/tools.svg" alt="tools">
+            </div>
+            <div class="intro4__strokeright">
+               <img src="./images/strokeofcamera.svg" alt="stroke">
+            </div>
+         </div>
+         <div class="intro4__subcontainer">
+            <div class="intro4__redecorating">
+               <img class="intro4__img-redecorating" src="./images/redecorating.png" alt="decor">
+                  <div class="intro4__block-redecorating">
+                     <h4 class="intro4__subtitle-redecor">Redecorating</h4>
+                        <ul class="intro4__typesofdecorating">
+                           <li>• Dismantling of old coatings</li>
+                           <li>• Wallpapering</li>
+                           <li>• Painting walls and ceilings</li>
+                           <li>• Laying flooring</li>
+                           <li>• Replacing plumbing</li>
+                           <li>• Replacing sockets and switches</li>
+                           <li>• Replacing doors</li>
+                        </ul>
+                        <div>
+                           <button class="intro4__btnofcost"><a href="">from 900 rub / m2</a></button>
+                        </div>
+                  </div>
+            </div>
+            <div class="intro4__overhaul">
+               <img class="intro4__img-overhaul" src="./images/overhaul.png" alt="haul">
+                  <div class="intro4__block-overhaul">
+                     <h4 class="intro4__subtitle-overhaul">Overhaul</h4>
+                        <ul class="intro4__typesofoverhaul">
+                           <li>• Dismantling of old coatings</li>
+                           <li>• Wallpapering</li>
+                           <li>• Painting walls and ceilings</li>
+                           <li>• Laying flooring</li>
+                           <li>• Replacing plumbing</li>
+                           <li>• Replacing sockets and switches</li>
+                           <li>• Replacing doors</li>
+                        </ul>
+                        <div>
+                           <button class="intro4__btnofcost2"><a href="">from 1800 rub / m2</a></button>
+                        </div>
+                  </div>
+            </div>
+            <div class="intro4__designerrepair">
+               <img class="intro4__img-designerrepair" src="./images/designerrepair.png" alt="repair">
+                  <div class="intro4__block-designerrepair">
+                     <h4 class="intro4__subtitle-designerrepair">Designer Repair</h4>
+                        <ul class="intro4__typesofdesignerrepair">
+                           <li>• Dismantling of old coatings</li>
+                           <li>• Wallpapering</li>
+                           <li>• Painting walls and ceilings</li>
+                           <li>• Laying flooring</li>
+                           <li>• Replacing plumbing</li>
+                           <li>• Replacing sockets and switches</li>
+                           <li>• Replacing doors</li>
+                        </ul>
+                        <div>
+                           <button class="intro4__btnofcost3"><a href="">from 4000 rub / m2</a></button>
+                        </div>
+                  </div>
+            </div>
+         </div>
+         <div class="intro4__measurement">
+            <img class="building" src="./images/step3foto1.png" alt="building">
+            <div class="intro4__services">
+               <div>
+                  <img class="circle" src="./images/smallcircle.svg" alt="circle">
+                  <img class="one" src="./images/01.svg" alt="first">
+                  <p class="text01">Our specialist will arrive for measurements per day
+                     contact, or appoint a date convenient for you</p>
+               </div>
+               <div>
+                  <img class="circle2" src="./images/smallcircle.svg" alt="circle">
+                  <img class="two" src="./images/02.svg" alt="second">
+                  <p class="text02">Free metering</p>
+               </div>
+               <div>
+                  <img class="circle3" src="./images/smallcircle.svg" alt="circle">
+                  <img class="three" src="./images/03.svg" alt="third">
+                  <p class="text03">Free consultation</p>
+               </div>
+               <div>
+                  <img class="circle4" src="./images/smallcircle.svg" alt="circle">
+                  <img class="four" src="./images/04.svg" alt="fourth">
+                  <p class="text04">Get a cost estimate and
+                     the timing of your future repairs</p>
+               </div>
+            </div>
+            <div class="intro4__measurement-form">
+               <div><form class="intro4__container-form" action="#"></div>
+                  <div>
+                     <p class="request-form">Leave a request for free
+                     departure of the measurer</p>
+                  </div>
+                  <div class="intro4__subcontainer">
+                     <div class="intro4__name-form">
+                        <label for="name">Name</label>
+                     </div>
+                     <div class="intro4__inputname-form">
+                        <input type="text" placeholder="What is your name:"></input>
+                     </div>
+                  </div>
+                  <div class="intro4__subcontainer2">
+                     <div class="intro4__phone-form">
+                        <label for="name">Phone</label>
+                     </div>
+                     <div class="intro4__inputphone-form">
+                        <input type="text" placeholder="Your phone number:"></input>
+                     </div>
+                  </div>
+                  <div class="intro4__subcontainer3">
+                     <div class="intro4__phone-form">
+                        <label for="name">Email</label>
+                     </div>
+                     <div class="intro4__inputphone-form">
+                        <input type="text" placeholder="Your email"></input>
+                     </div>
+                  </div>
+                  <div class="intro4__btn-form">
+                     <button><a class="intro4__btn-link" href="#">submit</a></button>
+                  </div>
+               </form>   
+                  <div class="checkbox-form">
+                     <label class="custom-checkbox">
+                        <input type="checkbox" class="hidden-checkbox">
+                        <div class="checkbox">
+                           <img class="checkmark" src="./images/checkmark.svg" alt="checkmark">
+                        </div>
+                        <span class="textofcheckbox">I agree to the processing of personal data</span>
+                     </label>
             </div>
          </div>
       </div>
