@@ -659,137 +659,249 @@ hr {
 /* -----intro4__measurement----- */
 
 .intro4__measurement {
-   
-   
-}
-
-.building {
-   
+   margin-top: 350px;
+   max-width: 1440px;
+   min-height: auto;
+   display: flex;
+   justify-content: space-between;
 }
 
 .intro4__services {
-   
+   display: flex;
+   justify-content: space-between;
 }
 
-.circle {
-
+.building {
+   height: 509px;
 }
 
-.one {
-
+.intro4__services-list {
+   margin-left: -430px;
+   margin-top: 40px;
+   width: 375px;
+   height: 473px;
 }
 
-.text01 {
+/* ----------------- */
 
+.intro4__i01 {
+   display: flex;
+   align-items: center;
+   margin-bottom: 27px;
 }
 
-.circle2 {
-
+.i01__one {
+   margin-top: -8px;
+   margin-left: -53px;
 }
 
-.two {
-
+.i01__text01 {
+   width: 355px;
+   font-size: 14px;
+   line-height: 19px;
+   color: #363636;
 }
 
-.text02 {
+/* ----------------- */
 
+.intro4__i02 {
+   margin-bottom: 30px;
 }
 
-.circle3 {
-
+.i02__two {
+   margin-top: 32px;
+   margin-left: -58px;
 }
 
-.three {
-
+.i02__text02, .i03__text03, .i04__text04 {
+   margin-top: -62px;
+   margin-left: 90px;
+   font-size: 14px;
+   line-height: 19px;
+   color: #363636;
 }
 
-.text03 {
+/* ------------------ */
 
+.intro4__i03 {
+   margin-bottom: 20px;
 }
 
-.circle4 {
-
+.i03__circle3 {
+   margin-top: 45px;
 }
 
-.four {
-
+.i03__three {
+   margin-top: 77px;
+   margin-left: -57px;
 }
 
-.text04 {
+/* ------------------ */
 
+.i04__circle4 {
+   margin-top: 65px;
 }
+
+.i04__four {
+   margin-top: 97px;
+   margin-left: -58px;
+}
+
+/* ---------------------- */
 
 .intro4__measurement-form {
-   
+   margin-left: 210px;
+   margin-top: 40px;
+   margin-right: 100px;
    width: 506px;
-   height: 509px;
-   border: 1px solid #000;
-}
-
-.intro4__container-form {
-
+   height: 470px;
+   background-color: #131313;
 }
 
 .request-form {
-
-}
-
-.intro4__subcontainer {
-
+   width: 270px;
+   color: #fff;
+   font-size: 18px;
+   line-height: 25.5px;
+   text-align: center;
+   margin-top: 28px;
+   margin-left: 104px;
 }
 
 .intro4__name-form {
-
+   margin-top: 40px;
+   color: #959595;
+   font-size: 14px;
+   line-height: 23px;
+   margin-left: 50px;
 }
 
-.intro4__inputname-form {
-
+.intro4__inputname-form input, .intro4__inputphone-form input {
+   margin-left: 50px;
+   font-size: 14px;
+   line-height: 23px;
+   color: #fff;
+   background-color: #131313;
 }
 
-.intro4__subcontainer2 {
-
+.borderform, .borderform2, .borderform3 {
+   border-bottom: 1px solid #959595;
+   margin-right: 50px;
+   margin-left: 50px;
 }
 
 .intro4__phone-form {
-
+   margin-top: 40px;
+   color: #959595;
+   font-size: 14px;
+   line-height: 23px;
+   margin-left: 50px;
 }
 
-.intro4__inputphone-form {
-
+.intro4__hidden-checkbox {
+   -webkit-appearance: none;
+   position: absolute;
 }
 
-.intro4__subcontainer3 {
+.intro4__custom-checkbox .intro4__checkbox {
+   background-color: #E3B873;
+   width: 18px;
+   height: 18px;
+   position: relative;
+   top: 17px;
+   left: 50px;
+   border-radius: 1px;
+   cursor: pointer;
+}
 
+.custom-checkbox .checkmark {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 70%;
+   height: auto;
+   display: none;
+}
+
+.intro4__custom-checkbox .intro4__checkmark {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 70%;
+   height: auto;
+   display: none;
+}
+
+.intro4__custom-checkbox input:checked + .intro4__checkbox .intro4__checkmark {
+   display: block;
+}
+
+.intro4__textofcheckbox {
+   margin-left: 75px;
+   font-size: 14px;
+   line-height: 23px;
+   color: #fff;
+   cursor: pointer;
 }
 
 .intro4__btn-form {
-
+   margin-top: 35px;
+   margin-left: 220px;
 }
 
-.intro4__btn-link {
-
+.intro4__btn-form a {
+   padding: 13px 25px;
+   color: #fff;
+   background-color: #E3B873;
+   font-size: 13px;
+   line-height: 21px;
+   text-align: center;
+   text-transform: uppercase;
 }
 
-.checkbox-form {
+/* --------pig--------- */
 
+.circleforpig {
+   position: relative;
+   top: 60px;
+   left: 10px;
 }
 
-.custom-checkbox {
-
+.pig {
+   position: absolute;
+   bottom: 1070px;
+   right: 458px;
 }
 
-.hidden-checkbox {
-
+.dollar {
+   position: absolute;
+   bottom: 1080px;
+   right: 477px;
 }
 
-.checkbox {
-
+.eye {
+   position: absolute;
+   bottom: 1088px;
+   right: 464px;
 }
 
-.checkmark {
-
+.helptext {
+   width: 220px;
+   margin-left: 130px;
+   margin-top: -30px;
+   font-size: 18px;
+   line-height: 25.5px;
+   color: #E3B873;
 }
 
-.textofcheckbox {
-
+.yourfantasies {
+   margin-top: 250px;
+   filter: brightness(0.3);
 }
+
+
+
+
+/* ---------intro5--------- */
