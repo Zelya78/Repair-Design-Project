@@ -328,7 +328,7 @@ a.goldlink {
 
 .intro3__title {
    display: inline-block; 
-   margin-top: -70px;
+   /* margin-top: -70px; */
    margin-left: 635px;
    width: 196px;
    height: 26px;
@@ -343,7 +343,7 @@ a.goldlink {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 135px;
+   margin-top: 175px;
    margin-bottom: 20px;
    padding-top: 100px;
    
@@ -871,20 +871,23 @@ hr {
 
 .pig {
    position: absolute;
-   bottom: 1070px;
+   top: 1445px;
    right: 458px;
+   z-index: 2;
 }
 
 .dollar {
    position: absolute;
-   bottom: 1080px;
+   top: 1458px;
    right: 477px;
+   z-index: 2;
 }
 
 .eye {
    position: absolute;
-   bottom: 1088px;
+   top: 1458px;
    right: 464px;
+   z-index: 2;
 }
 
 .helptext {
@@ -901,7 +904,27 @@ hr {
    filter: brightness(0.3);
 }
 
-
-
-
 /* ---------intro5--------- */
+
+.intro5 {
+   max-width: 1440px;
+   min-height: 785px;
+   background-color: #fff;
+}
+
+.intro5__container {
+   max-width: 1440px;
+   background-color: #fff;
+}
+
+.intro5__title {
+
+}
+
+.intro5__ourclients {
+
+}
+
+.intro5__handshake {
+
+}
